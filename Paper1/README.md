@@ -4,4 +4,4 @@ The paper suggests two methods for predicting self-harm content in posts, one by
 
 Several questions :
 - In section 3.1 (Pg 97), the paper mentions feature selection via L2-1 norm regularization. I know of L1-norm and L2-norm, but what is L2-1 norm regularization? Should I read up on it?
-- In section 3.2 (Pg 98), the technique of spectral clustering seems quite technically involved. I vaguely understand the first part, up to the Laplacian Matrix (which happens to be a key idea in my Math Maters Thesis actually haha), but I'm lost after that at the Lagrangian Function part. Should I read up more on that too?
+- In section 3.2 (Pg 98), the technique of spectral clustering seems quite technically involved. I vaguely understand the first part, up to the Laplacian Matrix (which happens to be a key idea in my Math Masters Thesis actually haha), but I'm lost after that at the Lagrangian Function part. Should I read up more on that too?
