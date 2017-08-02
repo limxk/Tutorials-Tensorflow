@@ -4,7 +4,7 @@ This paper discusses two different common document retrieval models. The first m
 
 The second model is the distributed model, whose main difference is in considering not only the query terms itself, but also the terms within its neighbourhood of the training set (skip-grams). Additionally, we can also tokenise each term (n-grams) to lower the dimensionality of the vector space of the training set. Through deep-learning, we can estimate the probability/frequency of a token appearing within the neighbourhood of a query term, and take that to be its similarity score with the query term. This allows us to perform document retrieval through inexact term matching effectively, matching not only synonyms, but also terms that frequently come together.
 
-The paper combines both models by applying both methods on the same query, and adding both scores to get an overall score. The new method boasts of an improved performance over previous methods that is statistically significant via paired t-test (p<0.05).
+The paper combines both models by applying both methods on the same query, and adding both scores to get an overall score. The new technique boasts of an improved performance over previous techniques that is statistically significant via paired t-test (p<0.05).
 
 ---
 
