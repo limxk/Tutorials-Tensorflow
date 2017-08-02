@@ -8,7 +8,7 @@ The paper combines both models by applying both methods on the same query, and a
 
 ---
 
-Questions :
+Reflections :
 
 Why did the paper get accepted?
 The paper combined several well-known techniques (tokenization, word embedding + similarity score, local model + distributed model) to come up with a new document retrieving technique that supposedly combines the advantages of each technique.
