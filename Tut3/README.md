@@ -10,12 +10,9 @@ While working on the problem, I noticed that the linear regression in Tut 1 had 
   
 - Why do we input the data into the optimizer one by one? Is this implementing SGD? Or am I mistaken?
 
-I did some experimentation on running the data by feeding it in one by one (linear_regression_sgd.py), and putting the data in as an entire batch (linear_regression_vgd.py). The final values of w and b are similar, with a certain variance. However, other parameters changed quite a bit.
+I did some experimentation on running the data by feeding it in one by one (linear_regression_sgd.py), and putting the data in as an entire batch (linear_regression_vgd.py). The final values of w and b are similar, with a certain variance. 
 
-- Why does the optimal learning rate to ensure convergence vary greatly in each case? In particular, the converging learning rate for VGD is much smaller than that of SGD
-
-- Why does changing the learning rate also change the total loss in each epoch greatly? 
-(Eg : for SGD, learning rate = 0.001 gave a total loss of epoch 0 as 2069, while learnig rate = 0.0001 gave a total loss of epoch 0 as 845)
+Update 110817 : I realised the biggest problem was that I set the size of my placeholders wrongly. I corrected that and uploaded linear_regression_vdgupdated1108.py , deleted the questions that were resolved because of this.
 
 
 Question#2 : Batch Gradient Descent (BGD)
