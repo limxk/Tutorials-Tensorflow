@@ -25,7 +25,7 @@ N_CLASSES = 10
 mnist = input_data.read_data_sets("/data/mnist", one_hot=True)
 
 # Step 2: Define paramaters for the model
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.0001
 BATCH_SIZE = 128
 SKIP_STEP = 10
 DROPOUT = 0.75
