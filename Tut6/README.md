@@ -16,7 +16,9 @@ Main idea of CNN (please correct me if im wrong anywhere here) :
 
 Problem :
 
-- The accuracy of the final weights is super low! At about 10%. I tried tweaking the num of epochs, the batch size, and even tried the uploaded "correct code" by the lecturer on github, but I still got the same result. Not sure where the problem is, gotta experiment more.
+- (RESOLVED)The accuracy of the final weights is super low! At about 10%. I tried tweaking the num of epochs, the batch size, and even tried the uploaded "correct code" by the lecturer on github, but I still got the same result. Not sure where the problem is, gotta experiment more.
+
+Update 200817 : Apparently the problem was a very basic one : the learning rate inputted was too large. Corrected the problem. Also found a cleaner more robust code for CNN on MNIST, from the tensorflow tutorial itself (mnist_deep.py). Will probably use this as a base instead if I were to do more work on CNN MNIST.
 
 Question :
 
